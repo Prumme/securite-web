@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Env files
+.env
+
+# PM2 process logs/dumps
+pmlogs/
+*.pm2
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Certbot/HTTPS (si jamais tu gères du cert à la main)
+certbot/
